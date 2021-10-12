@@ -6,4 +6,4 @@ Osnovni cilj predmeta **Korisnička sučelja** je upoznati studente s važnim as
 
 U svrhu upoznavanja sa navedenim tehnologijama, u uvodnom dijelu labova student će izraditi jednostavnu demo stranicu pri čemu će koristiti navede tehnologije. U inicijalnom tjednu ćemo krenuti s uspostavom GitHub repozitorija, kreiranjem inicijalne verzije Next.js aplikacije, te konfiguriranjem git klijenta sa svrhom uspostavljanja *konzistentnog* stila programskog koda (u teoretskom dijelu kolegija naučit ćemo da je **konzistentnost** jedan od najvažnijih principa dobrog dizajna).
 
-[Lab 1 - Setting up GitHub repository](HCI%20labs%2001ae19fe13984afda22ae537eedbd1a8/Setting%20up%20GitHub%20repository%207edde9826f744c9da4aff17ac321e5d4.md)
+[Lab 1 - Setting up GitHub repository](HCI%20labs/Setting%20up%20GitHub%20repository.md)

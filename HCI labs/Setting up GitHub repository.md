@@ -1,8 +1,8 @@
 # Setting up GitHub repository
 
-To follow the crash course on Next.js students should create a public GitHub repo. 
+To follow the crash course on Next.js students should create a public GitHub repo.
 
-1. To simplify interaction with Git repositories suggest the following applications:
+1. To simplify interaction with Git repositories we suggest the following applications:
     - [GitHub Desktop](https://desktop.github.com/)
     - [Sourcetree](https://www.sourcetreeapp.com/)
     
@@ -17,8 +17,8 @@ To follow the crash course on Next.js students should create a public GitHub rep
     
     ```powershell
     npx create-next-app --use-npm
-    √ What is your project named? ... **next-course-app
-    ...**
+    √ What is your project named? ... next-course-app
+    ...
     ```
     
     To start the Next.js development server run the following command:
@@ -34,7 +34,7 @@ To follow the crash course on Next.js students should create a public GitHub rep
     ├── HEAD
     ├── config
     ├── description
-    **├── hooks
+    ├── hooks
     │   ├── applypatch-msg.sample
     │   ├── commit-msg.sample
     │   ├── fsmonitor-watchman.sample
@@ -46,7 +46,7 @@ To follow the crash course on Next.js students should create a public GitHub rep
     │   ├── pre-rebase.sample
     │   ├── pre-receive.sample
     │   ├── prepare-commit-msg.sample
-    │   └── update.sample**
+    │   └── update.sample
     ```
     
     ### Publishing messy code
@@ -59,7 +59,7 @@ To follow the crash course on Next.js students should create a public GitHub rep
     - Commit and push your new branch to the remote repository.
     - Enjoy your result 🙂
         
-        ![messy_code.png](Setting%20up%20GitHub%20repository%207edde9826f744c9da4aff17ac321e5d4/messy_code.png)
+        ![messy_code.png](Setting%20up%20GitHub%20repository/messy_code.png)
         
     
     ### Using Git hooks to prevent messy code
@@ -75,4 +75,4 @@ To follow the crash course on Next.js students should create a public GitHub rep
         ```
         
     - To exclude processing - *prettifying* - irrelevant files you can ignore them by adding them to `.prettierignore` file.
-    - To configure prettier formatting, please check to [Prettier playground](https://prettier.io/playground/).
+    - To configure prettier formatting, please check [Prettier playground](https://prettier.io/playground/).
