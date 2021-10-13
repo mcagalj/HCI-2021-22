@@ -25,7 +25,7 @@ Za efektivno korištenje React.js biblioteke dobro je poznavati moderne funkcion
   - [Tagged templates](#tagged-templates)
 ## Variable declaration (`var`, `let` and `const`)
 
-```
+```js
 var name = "Ivan";
 let surname = "Ivanic";
 const gender = "male";
@@ -42,7 +42,7 @@ Tri jednostavna pravila pri deklaraciji varijabli:
 
 [MDN: Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#New_notations_in_ECMAScript_2015)
 
-```
+```js
 // old way
 let o = { a: "foo", b: 42, c: {} };
 console.log(o); // { a: 'foo', b: 42, c: {} }
@@ -61,7 +61,7 @@ console.log(o); // { a: 'foo', b: 42, c: {} }
 
 Koncizna inicjalizacija metoda u objektu:
 
-```
+```js
 // old way
 const securityService = {
   isAuthenticated: function(user) {
@@ -82,7 +82,7 @@ console.log(securityService); // { isAuthenticated: [Function: isAuthenticated] 
 
 ### Examples in React
 
-```
+```js
 return (
   <Auth0Context.Provider
     value={{
@@ -113,7 +113,7 @@ return (
 
 Ova funkcionalnost omogućava efikasan i koncizan kod:
 
-```
+```js
 const user = { name: "Jean", role: "admin", followers: 10 };
 
 // old way
@@ -128,7 +128,7 @@ console.log(name, role, followers); // Jean admin 10
 
 ```
 
-```
+```js
 const user = { name: "Jean", role: "admin", followers: 10 };
 
 // no destructuring
@@ -147,7 +147,7 @@ printUser(user); // Jean admin 10
 
 Destrukturiranje radi i s nizovima (*arrays*):
 
-```
+```js
 const user = ["Jean", "admin", 10];
 
 // no destructuring
@@ -167,7 +167,7 @@ console.log(ime, uloga, sljedbenici); // Jean admin 10
 
 ### Examples in React
 
-```
+```js
 const NewQuestionForm = () => {
   const [title, setTitle] = useState();
   const [question, setQuestion] = useState();
@@ -182,7 +182,7 @@ const NewQuestionForm = () => {
 
 [MDN: Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 
-```
+```js
 const user = { name: "Jean" };
 
 function printUser({ name, role = "user", followers = 0 }) {
@@ -200,7 +200,7 @@ printUser(user); // Jean admin 0
 
 ### Rest
 
-```
+```js
 function myFun(a, b, ...rest) {
   console.log("a:", a);
   console.log("b:", b);
@@ -218,7 +218,7 @@ myFun("one", "two", "three", "four", "five", "six");
 
 S nizovima:
 
-```
+```js
 const arr1 = [0, 1, 2];
 const arr2 = [3, 4, 5];
 
@@ -232,7 +232,7 @@ console.log(arr3); // [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
 
 S objektima:
 
-```
+```js
 const obj1 = { foo: "bar", x: 42 };
 const obj2 = { foo: "baz", y: 13 };
 
@@ -246,7 +246,7 @@ const mergedObj = { ...obj1, ...obj2 };
 
 ### Examples in React
 
-```
+```js
 const user = { name: "Jean", role: "admin", followers: 10 };
 
 function User({ name, role, followers }) {
@@ -259,7 +259,7 @@ function User({ name, role, followers }) {
 
 ```
 
-```
+```js
 // old way
 function UserContainer(user) {
   return (
@@ -271,7 +271,7 @@ function UserContainer(user) {
 
 ```
 
-```
+```js
 // with spread
 function UserContainer(user) {
   return (
@@ -287,7 +287,7 @@ function UserContainer(user) {
 
 [MDN: Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-```
+```js
 let isAuthenticated = false;
 
 // longer way
@@ -304,14 +304,14 @@ isAuthenticated ? console.log("Welcome!") : console.log("Please login.");
 
 ### Examples in React
 
-```
+```js
 isAdmin ? (
   <AnswerForm submitAnswer={submitAnswer} question_id={state.question_id} />
 ) : null;
 
 ```
 
-```
+```js
 data && data.length ? (
   <Table data={data} />
 ) : (
@@ -324,7 +324,7 @@ data && data.length ? (
 
 [MDN: Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-```
+```js
 // classical functions
 function fun() {
   console.log("Hello arrow functions");
@@ -337,7 +337,7 @@ const fun_arrow = () => console.log("Hello arrow functions");
 
 S argumentima:
 
-```
+```js
 // classical functions
 function fun(text) {
   console.log(text);
@@ -350,7 +350,7 @@ const fun_arrow = text => console.log(text);
 
 S nizovima:
 
-```
+```js
 const myarray = ["react", "angular", "vue"];
 
 // classical function
@@ -367,7 +367,7 @@ console.log(MYARRAY); // ["REACT", "ANGULAR", "VUE"]
 
 ### Examples in React
 
-```
+```js
 const Answers = ({answers}) => (
     <ul>
         {
@@ -407,7 +407,7 @@ JavaScript `Array` objekt definira niz vrlo korisnih metoda za rad s nizovima:
 - `filter`
 - `reduce`
 
-```
+```js
 const frontends = ["react", "angular", "vue"];
 
 let result = frontends.find(frontend => frontend === "vue");
@@ -459,7 +459,7 @@ console.log(result); // { a: [ 'react', 'angular' ], e: [ 'react', 'vue' ] }
 
 ### Examples in React
 
-```
+```js
 const Answers = ({answers}) => (
     <ul>
         {
@@ -493,7 +493,7 @@ ES moduli omogućuju bolju organizaciju/modularizaciju JS koda, odnosno grupiran
 
 ### `export` and `import` statements
 
-```
+```js
 // provider.js file/module
 export default (name = "world") => {
   console.log(`Hello ${name}!`);
@@ -503,7 +503,7 @@ export const PI = 3.14;
 
 ```
 
-```
+```js
 // consumer.js file/module
 import hello from "./provider";
 import { PI } from "./provider";
@@ -515,7 +515,7 @@ console.log(2 * PI); // 6.28
 
 ### Examples in React
 
-```
+```js
 import React, { useState, useEffect } from "react";
 import { Link } from "gatsby";
 import { useMutation, useSubscription } from "@apollo/react-hooks";
@@ -527,7 +527,7 @@ import Button from "@material-ui/core/Button";
 
 [MDN: Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
-```
+```js
 console.log("Hello" + " " + "world" + "!"); // Hello world!
 
 const greeting = "Hello";
@@ -546,7 +546,7 @@ world!`);
 
 ### Tagged templates
 
-```
+```js
 // here we define a tag called "fesb"
 function fesb(strings, who, what) {
   const Who = who.charAt(0).toUpperCase() + who.slice(1);
