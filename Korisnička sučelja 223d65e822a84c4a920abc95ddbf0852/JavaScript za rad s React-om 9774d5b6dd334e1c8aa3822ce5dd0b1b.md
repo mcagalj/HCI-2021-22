@@ -1,7 +1,28 @@
-# JavaScript za rad s React-om
+# JavaScript za rad s React-om <!-- omit in toc -->
 
 Za efektivno korištenje React.js biblioteke dobro je poznavati moderne funkcionalnosti JavaScript jezika (ES6+). U nastavku ćemo pokazati dio modernih aspekata i funkcionalnosti JavaScript za efektan rad s Reactom.
 
+- [Variable declaration (`var`, `let` and `const`)](#variable-declaration-var-let-and-const)
+- [Object initializer](#object-initializer)
+  - [Examples in React](#examples-in-react)
+- [Destructuring objects](#destructuring-objects)
+  - [Examples in React](#examples-in-react-1)
+- [Default parameters](#default-parameters)
+- [Rest and spread operators](#rest-and-spread-operators)
+  - [Rest](#rest)
+  - [Spread](#spread)
+  - [Examples in React](#examples-in-react-2)
+- [Conditional (ternary) operator](#conditional-ternary-operator)
+  - [Examples in React](#examples-in-react-3)
+- [Arrow functions](#arrow-functions)
+  - [Examples in React](#examples-in-react-4)
+- [Arrays](#arrays)
+  - [Examples in React](#examples-in-react-5)
+- [JavaScript module system (ES modules)](#javascript-module-system-es-modules)
+  - [`export` and `import` statements](#export-and-import-statements)
+  - [Examples in React](#examples-in-react-6)
+- [Template literals/strings](#template-literalsstrings)
+  - [Tagged templates](#tagged-templates)
 ## Variable declaration (`var`, `let` and `const`)
 
 ```
