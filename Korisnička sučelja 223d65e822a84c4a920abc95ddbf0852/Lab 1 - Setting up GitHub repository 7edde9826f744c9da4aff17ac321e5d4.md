@@ -1,4 +1,4 @@
-# Lab 1 - Setting up GitHub repository
+# Lab 1 - Setting up Next and GitHooks repository
 
 To follow the crash course on Next.js students should create a public GitHub repo. 
 
