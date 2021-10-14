@@ -93,4 +93,4 @@ U svrhu upoznavanja sa navedenim tehnologijama, u uvodnom dijelu labova student 
 
 ### Za rad u laboratoriju
 
-[Lab 1 - Setting up GitHub repository](Korisnička%20sučelja%20223d65e822a84c4a920abc95ddbf0852/Lab%201%20-%20Setting%20up%20GitHub%20repository%207edde9826f744c9da4aff17ac321e5d4.md)
+[Lab 1 - Setting up Next and Git hooks](Korisnička%20sučelja%20223d65e822a84c4a920abc95ddbf0852/Lab%201%20-%20Setting%20up%20GitHub%20repository%207edde9826f744c9da4aff17ac321e5d4.md)
