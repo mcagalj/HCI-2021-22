@@ -1,4 +1,11 @@
-# Next Course Application
+# Next Course Application <!-- omit in toc -->
+
+- [Application Sitemap](#application-sitemap)
+  - [Basic Sitemap](#basic-sitemap)
+  - [Sitemap with Reference Numbers](#sitemap-with-reference-numbers)
+- [Wireframes](#wireframes)
+- [Low fidelity prototypes](#low-fidelity-prototypes)
+- [Medium/high fidelity prototypes](#mediumhigh-fidelity-prototypes)
 
 ## Application Sitemap
 
