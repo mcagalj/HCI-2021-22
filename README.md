@@ -98,3 +98,5 @@ U svrhu upoznavanja sa navedenim tehnologijama, u uvodnom dijelu labova student 
 [Lab 2 - Prototypes for Crash Course](Next%20Course%20Application%200bb9599b47564744849af62c6ae58795.md)
 
 [Lab 3 - Tailwind CSS page](https://github.com/kula124/vjezbe3-tailwind)
+
+[Lab 4 - Tailwind and Mobile Version ](https://github.com/kula124/vjezba-4-state-and-responsive)
