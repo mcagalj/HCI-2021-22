@@ -100,3 +100,5 @@ U svrhu upoznavanja sa navedenim tehnologijama, u uvodnom dijelu labova student 
 [Lab 3 - Tailwind CSS page](https://github.com/kula124/vjezbe3-tailwind)
 
 [Lab 4 - Tailwind and Mobile Version ](https://github.com/kula124/vjezba-4-state-and-responsive)
+
+[Lab 5 - React State and Next.js Client-side Routing ](https://github.com/kula124/hci-2022-vjezba-5.git)
