@@ -91,6 +91,8 @@ U svrhu upoznavanja sa navedenim tehnologijama, u uvodnom dijelu labova student 
 
 [JavaScript za rad s React-om](Korisnička%20sučelja%20223d65e822a84c4a920abc95ddbf0852/JavaScript%20za%20rad%20s%20React-om%209774d5b6dd334e1c8aa3822ce5dd0b1b.md)
 
+[Kod web stranice sa labova](https://github.com/mcagalj/next-app-prototype)
+
 ### Za rad u laboratoriju
 
 [Lab 1 - Setting up Next and Git hooks](Korisnička%20sučelja%20223d65e822a84c4a920abc95ddbf0852/Lab%201%20-%20Setting%20up%20GitHub%20repository%207edde9826f744c9da4aff17ac321e5d4.md)
@@ -103,4 +105,4 @@ U svrhu upoznavanja sa navedenim tehnologijama, u uvodnom dijelu labova student 
 
 [Lab 5 - React State and Next.js Client-side Routing ](https://github.com/kula124/hci-2022-vjezba-5.git)
 
-[Lab 6 - Server-Side/Static-Side Rendering](https://github.com/kula124/hci-vjezba6-ssr)
+[Lab 6 - Server-Side Rendering/Static-Site Generation](https://github.com/kula124/hci-vjezba6-ssr)
